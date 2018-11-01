@@ -1,0 +1,3 @@
+Hola Mundo! Mi nombre es [] y tengo [] años. 
+Estoy llevando este curso para []. 
+En la segunda clase aprendimos sobre [] y []. 
