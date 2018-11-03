@@ -1,0 +1,5 @@
+juan: 80.8
+luis: 81.6
+ana: 89.6
+sofia: 81.0
+julio: 83.4
