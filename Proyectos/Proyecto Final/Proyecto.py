@@ -27,6 +27,8 @@ person_raw = pd.read_csv(
 )
 print("Person data loaded"+str(datetime.datetime.now()))
 
+
+
 print("Cleaning movie data"+str(datetime.datetime.now()))
 movie_titles = titles_raw[titles_raw['titleType'] == 'movie']
 movie_titles_df = movie_titles[['tconst', 'primaryTitle', 'isAdult', 'startYear', 'runtimeMinutes']]
@@ -49,17 +51,7 @@ person_data_df.columns = ['person_id', 'name', 'birth_year']
 person_data_df.set_index('person_id')
 print("Person data cleaned"+str(datetime.datetime.now()))
 
-print("Cleaning person profession data"+str(datetime.datetime.now()))
-person_profession = person_df[['nconst', 'primaryProfession']]
-person_profession.columns = ['person_id', 'profession']
-person_profession["profession"] = person_profession["profession"].str.split(",")
-print("Person profession data cleaned"+str(datetime.datetime.now()))
 
-print("Cleaning person known titles data"+str(datetime.datetime.now()))
-person_known_titles = person_df[['nconst', 'knownForTitles']]
-person_known_titles.columns = ['person_id', 'titles']
-person_known_titles["titles"] = person_known_titles["titles"].str.split(",")
-print("Person known titles cleaned"+str(datetime.datetime.now()))
 
 print("Pivoting movie genre data"+str(datetime.datetime.now()))
 movie_genres_df = movie_genres.genres.apply(pd.Series)\
