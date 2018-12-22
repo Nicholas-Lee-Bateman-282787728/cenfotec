@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3 as lite
 
-const_path = r'C:\git\cenfotec\Proyectos\Proyecto Final\IMDB Datasets'
+const_path = r'E:\git\cenfotec\Proyectos\Proyecto Final\IMDB Datasets'
 
 pd.set_option('display.max_rows', 1000)
 pd.set_option('display.max_columns', 10)
@@ -84,8 +84,16 @@ def clean_genre_data(movie_titles):
     movie_genres = movie_titles[['tconst', 'genres']]
     movie_genres.columns = ['title_id', 'genres']
     movie_genres = movie_genres.replace(r'\N', 'N/A')
-    movie_genres["genres"] = movie_genres["genres"].str.split(",")[0]
+    movie_genres["genres"] = movie_genres["genres"].str.split(",")
+    movie_genres["genres"] = movie_genres.genres.map(lambda x: x[0])
     movie_genres_df = movie_genres
+    movie_genres_df = movie_genres_df[movie_genres_df['genres'] != 'Adult']
+    movie_genres_df = movie_genres_df[movie_genres_df['genres'] != 'War']
+    movie_genres_df = movie_genres_df[movie_genres_df['genres'] != 'Music']
+    movie_genres_df = movie_genres_df[movie_genres_df['genres'] != 'Musical']
+    movie_genres_df = movie_genres_df[movie_genres_df['genres'] != 'Film-Noir']
+    movie_genres_df = movie_genres_df[movie_genres_df['genres'] != 'Family']
+    movie_genres_df = movie_genres_df.set_index('title_id')
     # print("Pivoting movie genre data")
     # movie_genres_df = movie_genres.genres.apply(pd.Series) \
     #     .merge(movie_genres, left_index=True, right_index=True) \
@@ -105,6 +113,8 @@ def clean_rating_data(rating_df):
     rating_df = rating_df[['tconst', 'averageRating', 'numVotes']]
     rating_df.columns = ['title_id', 'average_rating', 'num_votes']
     rating_df = rating_df.set_index('title_id')
+    rating_df = rating_df[rating_df['num_votes'] > 3155]
+    # 3155 being the mean of the raw data
     print("Movie rating cleaned")
     return rating_df
 
@@ -172,8 +182,8 @@ def load_tables(con, cur, movie_titles_df, movie_genres_df, person_data_df, rati
                 movie_directors_df, movie_writers_df, title_principals_df):
     print("Creating tables")
     with con:
-        cur.execute("DROP TABLE IF EXISTS movie_titles")
-        movie_titles_df.to_sql('movie_titles'
+        cur.execute("DROP TABLE IF EXISTS tbl_movie_titles")
+        movie_titles_df.to_sql('tbl_movie_titles'
                                , con=con
                                , schema=None
                                , if_exists='fail'
@@ -181,8 +191,8 @@ def load_tables(con, cur, movie_titles_df, movie_genres_df, person_data_df, rati
                                , index_label=None
                                , chunksize=None
                                , dtype=None)
-        cur.execute("DROP TABLE IF EXISTS movie_genres")
-        movie_genres_df.to_sql('movie_genres'
+        cur.execute("DROP TABLE IF EXISTS tbl_movie_genres")
+        movie_genres_df.to_sql('tbl_movie_genres'
                                , con=con
                                , schema=None
                                , if_exists='fail'
@@ -190,8 +200,8 @@ def load_tables(con, cur, movie_titles_df, movie_genres_df, person_data_df, rati
                                , index_label=None
                                , chunksize=None
                                , dtype=None)
-        cur.execute("DROP TABLE IF EXISTS person_data")
-        person_data_df.to_sql('person_data'
+        cur.execute("DROP TABLE IF EXISTS tbl_person_data")
+        person_data_df.to_sql('tbl_person_data'
                               , con=con
                               , schema=None
                               , if_exists='fail'
@@ -199,8 +209,8 @@ def load_tables(con, cur, movie_titles_df, movie_genres_df, person_data_df, rati
                               , index_label=None
                               , chunksize=None
                               , dtype=None)
-        cur.execute("DROP TABLE IF EXISTS movie_rating")
-        rating_df.to_sql('movie_rating'
+        cur.execute("DROP TABLE IF EXISTS tbl_movie_rating")
+        rating_df.to_sql('tbl_movie_rating'
                          , con=con
                          , schema=None
                          , if_exists='fail'
@@ -208,8 +218,8 @@ def load_tables(con, cur, movie_titles_df, movie_genres_df, person_data_df, rati
                          , index_label=None
                          , chunksize=None
                          , dtype=None)
-        cur.execute("DROP TABLE IF EXISTS movie_directors")
-        movie_directors_df.to_sql('movie_directors'
+        cur.execute("DROP TABLE IF EXISTS tbl_movie_directors")
+        movie_directors_df.to_sql('tbl_movie_directors'
                                   , con=con
                                   , schema=None
                                   , if_exists='fail'
@@ -217,8 +227,8 @@ def load_tables(con, cur, movie_titles_df, movie_genres_df, person_data_df, rati
                                   , index_label=None
                                   , chunksize=None
                                   , dtype=None)
-        cur.execute("DROP TABLE IF EXISTS movie_writers")
-        movie_writers_df.to_sql('movie_writers'
+        cur.execute("DROP TABLE IF EXISTS tbl_movie_writers")
+        movie_writers_df.to_sql('tbl_movie_writers'
                                 , con=con
                                 , schema=None
                                 , if_exists='fail'
@@ -226,8 +236,8 @@ def load_tables(con, cur, movie_titles_df, movie_genres_df, person_data_df, rati
                                 , index_label=None
                                 , chunksize=None
                                 , dtype=None)
-        cur.execute("DROP TABLE IF EXISTS movie_principals")
-        title_principals_df.to_sql('movie_principals'
+        cur.execute("DROP TABLE IF EXISTS tbl_movie_principals")
+        title_principals_df.to_sql('tbl_movie_principals'
                                    , con=con
                                    , schema=None
                                    , if_exists='fail'

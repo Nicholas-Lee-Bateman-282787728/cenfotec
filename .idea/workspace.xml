@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0222bd-6e03-4f32-93e9-4ab04d8e02f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_cleaning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_graphics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/Project.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_ratings_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_votes_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_ratings_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_votes_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_depp_ratings_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_depp_votes_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_ratings_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_votes_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_num_movies_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_rating_genre_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_votes_genre_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/testing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/cenfotec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cenfotec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyectos/Proyecto Final/Proyecto.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyectos/Proyecto Final/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyectos/Proyecto Final/imdb_movies.db" beforeDir="false" afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/imdb_movies.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_cleaning.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_graphics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tareas/enunciados tareas/Tarea 1/Tarea 1_ Softwares y Operaciones Basicas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Tareas/enunciados tareas/Tarea 1/Tarea 1_ Softwares y Operaciones Basicas.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,35 +32,106 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/data.py">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_rating_genre_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="70" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_cleaning.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="105" column="67" lean-forward="true" selection-start-line="105" selection-start-column="67" selection-end-line="105" selection-end-column="67" />
+            <state relative-caret-position="374">
+              <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <marker date="1545368348676" expanded="true" signature="9357:10479" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_graphics.py">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_num_movies_plot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="272">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_votes_genre_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_ratings_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="13" selection-start-line="13" selection-end-line="34" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_votes_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_votes_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_depp_votes_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_votes_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_ratings_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_ratings_plot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -73,7 +156,11 @@
       <find>titles_prin</find>
       <find>movie</find>
       <find>title_principals_df</find>
+      <find>merge</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,8 +171,22 @@
         <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/data.py" />
         <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/Proyecto.py" />
         <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/IMDB Datasets/pj_data_graphics.py" />
-        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_graphics.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/testing.py" />
         <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_cleaning.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/SQL Scripts/pj_num_movies_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_graphics.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/depp_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/dwayne_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/cage_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/xx_pj_votes_genre_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/deniro_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_votes_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_votes_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_votes_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_depp_votes_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_rating_genre_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_votes_genre_plot.py" />
+        <option value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_num_movies_plot.py" />
       </list>
     </option>
   </component>
@@ -124,7 +225,7 @@
               <item name="cenfotec" type="462c0819:PsiDirectoryNode" />
               <item name="Proyectos" type="462c0819:PsiDirectoryNode" />
               <item name="Proyecto Final" type="462c0819:PsiDirectoryNode" />
-              <item name="IMDB Datasets" type="462c0819:PsiDirectoryNode" />
+              <item name="SQL Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,10 +234,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_graphics.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Proyectos/Proyecto Final/xx_pj_votes_genre_plot.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\cenfotec\Proyectos\Proyecto Final" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\cenfotec\Proyectos\Proyecto Final" />
       <recent name="C:\git\cenfotec\Proyectos\Proyecto Final" />
     </key>
   </component>
@@ -152,59 +258,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pj_daata_graphics">
-    <configuration name="data_cleaning" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager" selected="Python.xx_pj_votes_genre_plot">
+    <configuration name="01_pj_data_cleaning" type="PythonConfigurationType" factoryName="Python">
       <module name="cenfotec" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\alfrs\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pj_daata_graphics" type="PythonConfigurationType" factoryName="Python">
-      <module name="cenfotec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\alfrs\AppData\Local\Continuum\anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_graphics.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pj_data_cleaning" type="PythonConfigurationType" factoryName="Python">
-      <module name="cenfotec" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\alfrs\AppData\Local\Continuum\anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_cleaning.py" />
@@ -216,10 +280,272 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="02_pj_rating_genre_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_rating_genre_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_pj_num_titles_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_num_movies_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_pj_dwayne_ratings_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_ratings_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_pj_dwayne_votes_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_votes_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_pj_depp_ratings_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_depp_ratings_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05_pj_depp_votes_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_depp_votes_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06_pj_deniro_ratings_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_ratings_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="06_pj_deniro_votes_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_votes_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07_pj_cage_ratings_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_ratings_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="07_pj_cage_votes_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_votes_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pj_votes_genre_plot" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\git\cenfotec\Proyectos\Proyecto Final\pj_votes_genre_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zz_testing" type="PythonConfigurationType" factoryName="Python">
+      <module name="cenfotec" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Programs\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Proyectos/Proyecto Final" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Proyectos/Proyecto Final/testing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.data_cleaning" />
-      <item itemvalue="Python.pj_data_cleaning" />
-      <item itemvalue="Python.pj_daata_graphics" />
+      <item itemvalue="Python.01_pj_data_cleaning" />
+      <item itemvalue="Python.02_pj_rating_genre_plot" />
+      <item itemvalue="Python.03_pj_num_titles_plot" />
+      <item itemvalue="Python.04_pj_dwayne_ratings_plot" />
+      <item itemvalue="Python.04_pj_dwayne_votes_plot" />
+      <item itemvalue="Python.05_pj_depp_ratings_plot" />
+      <item itemvalue="Python.05_pj_depp_votes_plot" />
+      <item itemvalue="Python.06_pj_deniro_ratings_plot" />
+      <item itemvalue="Python.06_pj_deniro_votes_plot" />
+      <item itemvalue="Python.07_pj_cage_ratings_plot" />
+      <item itemvalue="Python.07_pj_cage_votes_plot" />
+      <item itemvalue="Python.xx_pj_votes_genre_plot" />
+      <item itemvalue="Python.zz_testing" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -236,64 +562,177 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24609375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25426438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32882273" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/OneDrive/Escritorio/Proyecto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="112" column="14" lean-forward="true" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/Escritorio/Proyecto.py" />
     <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="70" />
+        <state relative-caret-position="85">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_graphics.py">
+    <entry file="file://D:/Programs/Anaconda3/Lib/site-packages/pandas/plotting/_core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        <state relative-caret-position="200">
+          <caret line="1470" selection-start-line="1470" selection-end-line="1470" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Anaconda3/Lib/site-packages/pandas/core/groupby/groupby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="540" selection-start-line="540" selection-end-line="540" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="53" selection-start-line="17" selection-end-line="17" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Programs/Anaconda3/Lib/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_cleaning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="74" column="59" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_data_cleaning.py">
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_depp_ratings_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="105" column="67" lean-forward="true" selection-start-line="105" selection-start-column="67" selection-end-line="105" selection-end-column="67" />
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <marker date="1545368348676" expanded="true" signature="9357:10479" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_ratings_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" selection-start-line="13" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_depp_votes_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_ratings_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_deniro_votes_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_ratings_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_cage_votes_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_votes_genre_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_rating_genre_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_num_movies_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyectos/Proyecto Final/pj_dwayne_votes_plot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
